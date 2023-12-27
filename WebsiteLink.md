@@ -1,2 +1,2 @@
-## This site is online at [here](https://rita-o.github.io/ritao.github.io/).
+## This site is online at [https://rita-o.github.io](https://rita-o.github.io).
 
