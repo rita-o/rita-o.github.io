@@ -2866,6 +2866,24 @@ input, select, textarea {
 					}
 
 		}
+		.features.four-per-row li {
+			width: calc(25% - 2em);
+			margin-left: 2em;
+			margin-top: 3em;
+		}
+		
+		@media screen and (max-width: 980px) {
+			.features.four-per-row li {
+				width: calc(50% - 2em);
+			}
+		}
+		
+		@media screen and (max-width: 736px) {
+			.features.four-per-row li {
+				width: 100%;
+				margin-left: 0;
+			}
+		}
 
 /* Statistics */
 
@@ -3791,22 +3809,3 @@ input, select, textarea {
 			}
 
 		}
-
-.features.four-per-row li {
-	width: calc(25% - 2em);
-	margin-left: 2em;
-	margin-top: 3em;
-}
-
-@media screen and (max-width: 980px) {
-	.features.four-per-row li {
-		width: calc(50% - 2em);
-	}
-}
-
-@media screen and (max-width: 736px) {
-	.features.four-per-row li {
-		width: 100%;
-		margin-left: 0;
-	}
-}
